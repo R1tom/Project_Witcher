@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.parse.starter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:5:5-67
+11-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:6:5-80
+12-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:7:5-79
+13-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:8:5-80
+14-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:9:5-69
+15-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:9:22-66
+16    <uses-permission android:name="android.permission.READ_CONTACTS" />
+16-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:10:5-72
+16-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:10:22-69
+17    <uses-permission android:name="android.permission.SEND_SMS" />
+17-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:11:5-67
+17-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:11:22-64
+18    <!--
+19         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+20         Google Maps Android API v2, but you must specify either coarse or fine
+21         location permissions for the 'MyLocation' functionality. 
+22    -->
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:17:5-79
+23-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:17:22-76
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\1d388e2b99f72429574165215bd1032a\play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\1d388e2b99f72429574165215bd1032a\play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\1d388e2b99f72429574165215bd1032a\play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+28
+29    <application
+29-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:19:5-66:19
+30        android:name="com.parse.starter.StarterApplication"
+30-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:20:9-43
+31        android:allowBackup="true"
+31-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:21:9-35
+32        android:debuggable="true"
+33        android:icon="@drawable/ic_launcher"
+33-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:22:9-45
+34        android:label="@string/app_name"
+34-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:23:9-41
+35        android:theme="@style/AppTheme" >
+35-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:24:9-40
+36        <activity android:name="com.parse.starter.quickCallHelp" />
+36-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:25:9-60
+36-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:25:19-48
+37        <activity android:name="com.parse.starter.police_login" />
+37-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:26:9-50
+37-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:26:19-47
+38        <activity android:name="com.parse.starter.quickCallForHelp" />
+38-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:27:9-54
+38-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:27:19-51
+39        <activity android:name="com.parse.starter.login_regestration" />
+39-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:28:9-56
+39-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:28:19-53
+40        <activity android:name="com.parse.starter.userFeed" />
+40-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:29:9-46
+40-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:29:19-43
+41
+42        <meta-data
+42-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:31:9-33:52
+43            android:name="com.parse.APPLICATION_ID"
+43-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:32:13-52
+44            android:value="@string/parse_app_id" />
+44-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:33:13-49
+45        <meta-data
+45-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:34:9-36:56
+46            android:name="com.parse.CLIENT_KEY"
+46-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:35:13-48
+47            android:value="@string/parse_client_key" />
+47-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:36:13-53
+48
+49        <activity
+49-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:38:9-46:20
+50            android:name="com.parse.starter.MainActivity"
+50-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:39:13-41
+51            android:label="@string/app_name" >
+51-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:40:13-45
+52            <intent-filter>
+52-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:41:13-45:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:42:17-69
+53-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:42:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:44:17-77
+55-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:44:27-74
+56            </intent-filter>
+57        </activity>
+58        <!--
+59             The API key for Google Maps-based APIs is defined as a string resource.
+60             (See the file "res/values/google_maps_api.xml").
+61             Note that the API key is linked to the encryption key used to sign the APK.
+62             You need a different API key for each encryption key, including the release key that is used to
+63             sign the APK for publishing.
+64             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+65        -->
+66        <meta-data
+66-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:55:9-57:71
+67            android:name="com.google.android.geo.API_KEY"
+67-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:56:13-58
+68            android:value="AIzaSyDO_7hwzq72OiUNvBtCjpX85zs5ky0yUk4" />
+68-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:57:13-68
+69
+70        <activity
+70-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:59:9-61:60
+71            android:name="com.parse.starter.sendYourLocation"
+71-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:60:13-45
+72            android:label="@string/title_activity_rider" />
+72-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:61:13-57
+73        <activity android:name="com.parse.starter.ViewRequestsActivity" />
+73-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:62:9-58
+73-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:62:19-55
+74        <activity
+74-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:63:9-65:70
+75            android:name="com.parse.starter.FinderLocationActivity"
+75-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:64:13-51
+76            android:label="@string/title_activity_driver_location" />
+76-->F:\Project Witcher\ParseStarterProject\src\main\AndroidManifest.xml:65:13-67
+77
+78        <meta-data
+78-->[com.android.support:design:26.1.0] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\0bcf2e97a63ea0c99df3f827bccd936f\design-26.1.0\AndroidManifest.xml:26:9-28:38
+79            android:name="android.support.VERSION"
+79-->[com.android.support:design:26.1.0] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\0bcf2e97a63ea0c99df3f827bccd936f\design-26.1.0\AndroidManifest.xml:27:13-51
+80            android:value="26.1.0" /> <!-- Needs to be explicitly declared on P+ -->
+80-->[com.android.support:design:26.1.0] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\0bcf2e97a63ea0c99df3f827bccd936f\design-26.1.0\AndroidManifest.xml:28:13-35
+81        <uses-library
+81-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\1d388e2b99f72429574165215bd1032a\play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+82            android:name="org.apache.http.legacy"
+82-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\1d388e2b99f72429574165215bd1032a\play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+83            android:required="false" />
+83-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\1d388e2b99f72429574165215bd1032a\play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\3080eed180765bfc7998d6ec12ccbed2\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\3080eed180765bfc7998d6ec12ccbed2\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\3080eed180765bfc7998d6ec12ccbed2\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\3080eed180765bfc7998d6ec12ccbed2\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+89
+90        <meta-data
+90-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\5d4779b69cfc290fa8cec36950eb925e\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+91            android:name="com.google.android.gms.version"
+91-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\5d4779b69cfc290fa8cec36950eb925e\play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+92            android:value="@integer/google_play_services_version" />
+92-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\5d4779b69cfc290fa8cec36950eb925e\play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+93
+94        <provider
+94-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\0d8487910cb5b29a0bf39fc7ce84ac98\extensions-1.1.1\AndroidManifest.xml:23:9-27:43
+95            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+95-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\0d8487910cb5b29a0bf39fc7ce84ac98\extensions-1.1.1\AndroidManifest.xml:24:13-83
+96            android:authorities="com.parse.starter.lifecycle-trojan"
+96-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\0d8487910cb5b29a0bf39fc7ce84ac98\extensions-1.1.1\AndroidManifest.xml:25:13-68
+97            android:exported="false"
+97-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\0d8487910cb5b29a0bf39fc7ce84ac98\extensions-1.1.1\AndroidManifest.xml:26:13-37
+98            android:multiprocess="true" />
+98-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\r_tom\.gradle\caches\transforms-2\files-2.1\0d8487910cb5b29a0bf39fc7ce84ac98\extensions-1.1.1\AndroidManifest.xml:27:13-40
+99    </application>
+100
+101</manifest>

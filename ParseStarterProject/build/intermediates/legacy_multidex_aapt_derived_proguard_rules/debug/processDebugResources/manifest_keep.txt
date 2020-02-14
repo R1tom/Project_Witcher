@@ -1,0 +1,2 @@
+# Referenced at F:\Project Witcher\ParseStarterProject\build\intermediates\merged_manifests\debug\AndroidManifest.xml:29
+-keep class com.parse.starter.StarterApplication { <init>(); }

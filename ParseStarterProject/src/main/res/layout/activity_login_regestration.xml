@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_regestration">
+
+
+    <ScrollView
+        android:layout_width="312dp"
+        android:layout_height="538dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+
+                android:ems="10"
+                android:hint="Enter your full name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/repass"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Re-enter the password"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <EditText
+                android:id="@+id/phone1"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+
+                android:ems="10"
+                android:hint="enter emg. phone number 1"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/phone2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+
+                android:hint="enter emg. phone number 2"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/phone3"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:ems="10"
+                android:hint="enter emg. phone number 2"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="153dp"
+                android:layout_height="76dp"
+                android:onClick="register"
+                android:text="Register" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
